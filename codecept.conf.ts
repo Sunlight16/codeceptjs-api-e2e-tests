@@ -17,7 +17,8 @@ export const config: CodeceptJS.MainConfig = {
     }
   },
   include: {
-    I: './steps_file'
+    I: './global_steps/global-steps_file.ts',
+    loginApi: './api/UsersAPI/LoginAPI.ts',
   },
   name: 'codeceptjs-api-e2e-tests'
 }
