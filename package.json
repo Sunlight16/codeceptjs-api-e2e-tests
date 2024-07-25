@@ -19,5 +19,8 @@
         "playwright": "^1.45.2",
         "ts-node": "^10.9.2",
         "typescript": "^5.5.3"
+    },
+    "dependencies": {
+        "random-email": "^1.0.3"
     }
 }
