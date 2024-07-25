@@ -1,4 +1,5 @@
 app_url:
+expand_json: true
 user_token: 
 user_login:
   user_email:

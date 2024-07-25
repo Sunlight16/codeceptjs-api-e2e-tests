@@ -1,17 +1,17 @@
 const { I } = inject();
-import { configMain } from "../../../config/config";
+import { configData } from "../../../config/config-data";
 import { getBaseUrl } from "../../helpers/urls";
 
 async function userLogin(userData: any) {
     const url = `${getBaseUrl()}/users/login`;
-    const header = {
-        'Authorization': `Bearer ${configMain.user_token}`,
+    const headers = {
+        'Content-Type': 'application/json'
     }
-    const response = await I.sendPostRequest(url, userData, header);
+    const response = await I.sendPostRequest(url, userData, headers);
     return response;
 }
 
-export ={
+export = {
     userLogin,
 }
 

@@ -1,8 +1,8 @@
-import {configMain} from "../../config/config"
+import { configData } from "../../config/config-data"
 
 
-function getBaseUrl():string {
-    return `https://${configMain.app_url}`
+function getBaseUrl(): string {
+    return `https://${configData.app_url}`
 }
 
 export {
