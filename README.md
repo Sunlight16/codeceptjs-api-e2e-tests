@@ -11,6 +11,7 @@ Create e2e automation coverage for API endpoints available in https://thinking-t
 Based on NodeJS, the project uses [CodeceptJS](https://codecept.io/basics/#getting-started) as the basic testing framework in addition to using various utilities. CodeceptJS provides significant flexibility to test API calls as well browser based interaction if needed.
 
 > NodeJS version 20+ is recommended
+> `nvm use 20`
 
 ## Install Project dependencies
 
