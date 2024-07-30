@@ -1,6 +1,6 @@
 const { I } = inject();
-import { configData } from "../../../config/config-data";
-import { getBaseUrl } from "../../helpers/urls";
+import { configData } from "../../config/config-data";
+import { getBaseUrl } from "../helpers/urls";
 
 var headers = {
     'Content-Type': 'application/json'

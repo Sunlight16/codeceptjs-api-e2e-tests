@@ -1,6 +1,6 @@
 /// <reference types='codeceptjs' />
 type steps_file = typeof import('./global_steps/global-steps_file');
-type usersApi = typeof import('./api/endpoint/UsersAPI/UsersAPI');
+type usersApi = typeof import('./api/endpoint/UsersAPI');
 type AssertHelper = import('./helpers/assert_helper');
 
 declare namespace CodeceptJS {
