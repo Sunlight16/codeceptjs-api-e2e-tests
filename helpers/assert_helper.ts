@@ -1,3 +1,8 @@
+/*  
+ This part of the code was implemented by a Software Developer.
+ Just re-using this code for my current API tests.
+
+*/
 const assert = require('assert');
 const _ = require('lodash');
 

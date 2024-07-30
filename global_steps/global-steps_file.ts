@@ -1,3 +1,7 @@
+/* 
+ This part of the code was implemented by a Software Developer.
+ This actor is used for showing response in JSON format.
+*/
 import { configData } from "../config/config-data";
 export = function () {
     return actor({
