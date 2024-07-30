@@ -14,10 +14,16 @@ export const config: CodeceptJS.MainConfig = {
       browser: 'chromium',
       url: 'http://localhost',
       show: false
+    },
+    FileSystem: {},
+    REST: {},
+    AssertHelper: {
+      require: './helpers/assert_helper.ts'
     }
   },
   include: {
-    I: './steps_file'
+    I: './global_steps/global-steps_file.ts',
+    usersApi: './api/endpoint/UsersAPI.ts',
   },
   name: 'codeceptjs-api-e2e-tests'
 }

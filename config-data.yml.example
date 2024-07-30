@@ -1,0 +1,6 @@
+app_url: thinking-tester-contact-list.herokuapp.com
+expand_json: true
+user_token: 
+user_login:
+  user_email:
+  user_password:
