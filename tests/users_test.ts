@@ -2,8 +2,6 @@ import { configData } from "../config/config-data";
 const randomEmail = require('random-email');
 Feature('Users API');
 
-
-
 Scenario('CRUD Users', async ({ I, usersApi }) => {
 
     I.say('Create new User', 'yellow');
