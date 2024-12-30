@@ -4,7 +4,6 @@ import fs from 'fs';
 interface ConfigGeneral {
   app_url: string;
   expand_json: boolean;
-  user_token: string;
   user_login: UserData;
 }
 
