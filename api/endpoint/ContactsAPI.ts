@@ -6,7 +6,7 @@ import { AuthToken } from "../util/AuthToken";
 function getGeneralHeaders(authHeader: AuthToken) {
     return {
         "Content-Type": "application/json",
-        "Authorization": `Bearer ${authHeader}`,
+        "Authorization": `Bearer ${authHeader.authToken}`,
     };
 }
 
@@ -15,7 +15,6 @@ function getGeneralHeaders(authHeader: AuthToken) {
 async function createContact(contactData: Contact, authToken: AuthToken) {
     const url = `${getBaseUrl()}/contacts`;
     const response = await I.sendPostRequest(url, contactData, getGeneralHeaders(authToken));
-    console.log(getGeneralHeaders(authToken));
     return response;
 }
 
